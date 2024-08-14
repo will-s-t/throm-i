@@ -1,0 +1,28 @@
+Procedure and method,Procedure,Method,LOW VTE risk without thromboprophylaxis,MEDIUM VTE risk without thromboprophylaxis,HIGH VTE risk without thromboprophylaxis,Evidence quality VTE,Bleeding requiring reintervention without thromboprophylaxis,Evidence quality bleeding requiring reoperation,LOW VTE risk with thromboprophylaxis,MEDIUM VTE risk with thromboprophylaxis,HIGH VTE risk with thromboprophylaxis,Bleeding requiring reintervention with thromboprophylaxis,,Bleeding leading to transfusion without thromboprophylaxis,Evidence quality bleeding leading to transfusion,Bleeding leading to transfusion with thromboprophylaxis
+"Abdominoperineal resection, laparoscopic",Abdominoperineal resection,Laparoscopic,0.9,1.8,3.6,Moderate,NR,,0.4,0.8,1.7,NR,,4.9,Moderate,7.4
+"Abdominoperineal resection, open",Abdominoperineal resection,Open,2.4,4.9,9.8,Moderate,NR,,1.1,2.3,4.5,NR,,21.5,Moderate,32.5
+"Anterior resection, minimally-invasive",Anterior resection,Minimally-invasive,0.5,1.1,2.2,Low,1.2,Moderate,0.2,0.5,1.0,1.8,,1.4,Moderate,2.1
+"Anterior resection, open",Anterior resection,Open,1.0,2.0,4.0,Low,NR,,0.5,0.9,1.8,<0.1,,3.7,Low,5.6
+"Rectopexy, laparoscopic",Rectopexy,Laparoscopic,0.3,0.5,1.0,Moderate,NR,,0.1,0.2,0.5,NR,,0.9,Moderate,1.4
+"Rectopexy, open",Rectopexy,Open,0.4,0.8,1.6,Moderate,NR,,0.2,0.4,0.7,NR,,1.8,Moderate,2.7
+"Rectopexy, perineal",Rectopexy,Perineal,0.6,1.1,2.3,Moderate,0.4,Very low,0.3,0.5,1.1,0.6,,0.5,Moderate,0.8
+"Colectomy, minimally-invasive",Colectomy,Minimally-invasive,1.2,2.4,4.9,Low,1.0,Low,0.6,1.1,2.3,1.5,,1.3,Moderate,2.0
+"Colectomy, laparoscopic",Colectomy,Laparoscopic,1.1,2.2,4.5,Low,1.0,Moderate,0.5,1.0,2.1,1.5,,1.2,Moderate,1.8
+"Colectomy, robotic",Colectomy,Robotic,1.2,2.4,4.8,Moderate,NR,,0.6,1.1,2.2,NR,,3.7,Low,5.6
+"Colectomy, open",Colectomy,Open,3.1,6.2,12.4,Low,0.8,Very low,1.4,2.9,5.7,1.2,,2.0,Low,3.0
+"Colectomy, minimally-invasive, benign",Colectomy,"Minimally-invasive, benign",0.3,0.6,1.2,Moderate,0.3,Very low,0.1,0.3,0.6,0.5,,1.6,Moderate,2.4
+"Colectomy, minimally-invasive, malign",Colectomy,"Minimally-invasive, malignant",1.1,2.2,4.4,Moderate,1.3,Low,0.5,1.0,2.0,2.0,,1.6,Moderate,2.4
+"Colectomy, minimally-invasive, IBD",Colectomy,"Minimally-invasive, IBD",1.8,3.6,7.3,Low,0.3,Very low,0.8,1.7,3.4,0.5,,<0.1,Very low,<0.1
+"Colectomy, minimally-invasive, emergency",Colectomy,"Minimally-invasive, emergency",3.3,6.7,13.4,Moderate,NR,,1.5,3.1,6.2,NR,,NR,,NR
+"Colectomy, open, benign",Colectomy,"Open, benign",1.5,3.1,6.2,Very low,NR,,0.7,1.4,2.9,NR,,3.0,Moderate,4.5
+"Colectomy, open, malignant",Colectomy,"Open, malignant",2.0,3.9,7.8,Low,NR,,0.9,1.8,3.6,NR,,3.6,Low,5.4
+"Colectomy, open, IBD",Colectomy,"Open, IBD",3.5,6.9,13.8,Moderate,NR,,1.6,3.2,6.3,NR,,0.3,Low,0.5
+"Colectomy, open, emergency",Colectomy,"Open, emergency",4.6,9.1,18.3,Moderate,NR,,2.1,4.2,8.4,NR,,2.4,Moderate,3.6
+"Colectomy, minimally-invasive, left",Colectomy,"Minimally-invasive, left",1.3,2.5,5.1,Moderate,1.1,Very low,0.6,1.2,2.3,1.7,,2.3,Moderate,3.5
+"Colectomy, minimally-invasive, right",Colectomy,"Minimally-invasive, right",0.9,1.9,3.8,Moderate,1.5,Very low,0.4,0.9,1.7,2.3,,2.7,Moderate,4.1
+"Colectomy, minimally-invasive, sigmoid",Colectomy,"Minimally-invasive, sigmoid",0.2,0.4,0.9,Low,NR,,0.1,0.2,0.4,NR,,0.6,Moderate,0.9
+"Colectomy, open, left",Colectomy,"Open, left",2.6,5.2,10.4,Moderate,NR,,1.2,2.4,4.8,NR,,NR,,NR
+"Colectomy, open, right",Colectomy,"Open, right",2.2,4.3,8.6,Moderate,NR,,1.0,2.0,4.0,NR,,7.0,Moderate,10.6
+"Colectomy, open, sigmoid",Colectomy,"Open, sigmoid",1.3,2.6,5.2,Very low,NR,,0.6,1.2,2.4,NR,,1.5,Very low,2.3
+"Total proctocolectomy, laparoscopic",Total proctocolectomy,Laparoscopic,4.3,8.6,17.3,Low,0.3,Very low,2.0,4.0,8.0,0.5,,2.2,Low,3.3
+"Total proctocolectomy, open",Total proctocolectomy,Open,4.5,9.0,18.0,Moderate,NR,,2.1,4.1,8.3,NR,,2.8,Low,4.2

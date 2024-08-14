@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'InterFace-Regular';
+	src: url('https://www.bmj.com/sites/default/themes/bmj/the_bmj/fonts/if_std_rg-webfont.ttf') format('truetype');
+	src: url('https://www.bmj.com/sites/default/themes/bmj/the_bmj/fonts/if_std_rg-webfont.woff') format('woff');
+	/*src: url('https://www.bmj.com/sites/default/themes/bmj/the_bmj/fonts/if_std_rg-webfont.eot?#iefix') format('embedded-opentype');*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'InterFace-Bold';
+	src: url('https://www.bmj.com/sites/default/themes/bmj/the_bmj/fonts/if_std_bd-webfont.ttf') format('truetype');
+	src: url('https://www.bmj.com/sites/default/themes/bmj/the_bmj/fonts/if_std_bd-webfont.woff') format('woff');
+	/*src: url('https://www.bmj.com/sites/default/themes/bmj/the_bmj/fonts/if_std_bd-webfont.eot?#iefix') format('embedded-opentype');*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'InterFace-Italic';
+	src: url('https://www.bmj.com/sites/default/themes/bmj/the_bmj/fonts/if_std_it-webfont.ttf') format('truetype');
+	src: url('https://www.bmj.com/sites/default/themes/bmj/the_bmj/fonts/if_std_it-webfont.woff') format('woff');
+	/*src: url('https://www.bmj.com/sites/default/themes/bmj/the_bmj/fonts/if_std_bd-webfont.eot?#iefix') format('embedded-opentype');*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "interface",sans-serif;
+	background-color: #FFF;
+}
+
+
+#draft {
+	pointer-events: none;
+}
+
+
+.button {
+	cursor: pointer;
+}
+
+.scaling-svg-container {
+	position: relative;
+	height: 0;
+	width: 100%;
+	padding: 0;
+	padding-bottom: 100%
+}
+
+.scaling-svg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.thisisthetooltip {opacity:0; pointer-events: none;}
+
+.thishasatooltip:hover .thisisthetooltip {opacity:1; transition: opacity 0.3s;}

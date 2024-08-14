@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8">
+		<title>The CLUE Post-Surgery VTE Risk Instrument</title>
+		<script src="https://d3js.org/d3.v6.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+	</head>
+
+	<body>
+
+		<div style="max-width:750px;">
+
+			<div class="scaling-svg-container" style="padding-bottom: 100%; max-width: 750px; margin: 0px auto 0px auto; ">
+
+				<svg class="scaling-svg" style="max-width: 750px;" id="graphic" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 750 750" enable-background="new 0 0 750 750" xml:space="preserve">
+					
+
+					<g id="background">
+						<rect fill="#D9D9D9" width="750" height="750"/>
+					</g>
+
+					<g id="riskFactorHighlight">
+						<g>
+							<rect x="545.123" y="267.123" fill="#4081B3" width="161.604" height="47.027"/>
+							
+								<rect x="616.947" y="262.906" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -8.9223 522.2292)" fill="#4081B3" width="17.957" height="17.957"/>
+							<g>
+								<rect x="555.738" y="275.935" fill="none" width="140.374" height="32.994"/>
+								<text transform="matrix(1 0 0 1 559.7369 287.0752)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="13px">Select number of risk </tspan><tspan x="-2.535" y="15.601" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="13px">factors to view results</tspan></text>
+							</g>
+						</g>
+					</g>
+
+
+					<g id="Layer_2">
+
+						<g>
+							<text transform="matrix(1 0 0 1 18.1396 37.0479)" fill="#575756" font-family="'HelveticaNeue-Bold'" font-size="18px">The CLUE Post-Surgery VTE Risk Instrument</text>
+						</g>
+						<g>
+							<rect x="17.152" y="49.145" fill="none" width="392.975" height="32.993"/>
+							<text transform="matrix(1 0 0 1 17.1519 60.2858)"><tspan x="0" y="0" fill="#575756" font-family="'HelveticaNeue'" font-size="13px">Calculate the risks for different types of surgery, with </tspan><tspan x="0" y="15.6" fill="#575756" font-family="'HelveticaNeue'" font-size="13px">and without thromboprophylaxis, using the options below</tspan></text>
+						</g>
+						<rect x="421.069" y="21.334" fill="#FFFFFF" width="309.931" height="61.712"/>
+						
+						<g>
+							<text transform="matrix(1 0 0 1 475.8574 736.7607)"><tspan x="0" y="0" fill="#575756" font-family="'HelveticaNeue'" font-size="13.8793px">Interactive graphic by </tspan><a href="http://blog.willstahl.com"><tspan x="137.777" y="0" fill="#4081B3" font-family="'HelveticaNeue-Bold'" font-size="13.8793px">Will Stahl-Timmins</tspan></a></text>
+						</g>
+						<rect x="16.365" y="96.644" fill="#FFFFFF" width="270.27" height="61.712"/>
+						<text transform="matrix(1 0 0 1 27.3677 117.5005)" fill="#438886" font-family="'HelveticaNeue-Bold'" font-size="15px">Surgery type</text>
+						<rect x="16.365" y="174.458" fill="#FFFFFF" width="714.635" height="73.455"/>
+						<text transform="matrix(1 0 0 1 27.3677 195.3151)"><tspan x="0" y="0" fill="#575756" font-family="'HelveticaNeue-Bold'" font-size="15px">Venous </tspan><tspan x="0" y="19.171" fill="#575756" font-family="'HelveticaNeue-Bold'" font-size="15px">thromboembolism </tspan><tspan x="0" y="38.343" fill="#575756" font-family="'HelveticaNeue-Bold'" font-size="15px">(VTE) risk factors</tspan></text>
+						<rect x="299.69" y="96.644" fill="#FFFFFF" width="208.556" height="61.712"/>
+						<text transform="matrix(1 0 0 1 310.6926 117.5005)" fill="#40849F" font-family="'HelveticaNeue-Bold'" font-size="15px">Procedure</text>
+						<rect x="522.444" y="96.644" fill="#FFFFFF" width="208.556" height="61.712"/>
+						<text transform="matrix(1 0 0 1 533.447 117.5005)" fill="#4081B3" font-family="'HelveticaNeue-Bold'" font-size="15px">Method</text>
+						<text transform="matrix(1 0 0 1 209.454 201.5098)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">Age 75+</text>
+						<text transform="matrix(1 0 0 1 209.3745 229.2927)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">BMI 35+ kg/m</text>
+						
+							<text transform="matrix(0.583 0 0 0.583 293.9951 224.8635)" fill="#6F6F6E" font-family="'HelveticaNeue-Medium'" font-size="13.3011px">2</text>
+						<circle fill="#4081B3" cx="199.629" cy="197.009" r="4.212"/>
+						<text transform="matrix(1 0 0 1 339.1854 201.5098)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">VTE in first-degree relative</text>
+						<circle fill="#4081B3" cx="329.36" cy="197.009" r="4.212"/>
+						<circle fill="#4081B3" cx="199.629" cy="224.784" r="4.212"/>
+						<rect x="324.039" y="211.695" fill="#999999" width="174.106" height="24.608"/>
+						
+							<rect x="403.776" y="209.245" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.7256 354.1154)" fill="#999999" width="14.632" height="14.632"/>
+						<text transform="matrix(1 0 0 1 330.9679 227.8296)" fill="#FFFFFF" font-family="'HelveticaNeue'" font-size="13.3011px">Parent, full sibling, or child</text>
+						<g>
+							<text transform="matrix(1 0 0 1 541.8099 195.3147)" fill="#575756" font-family="'HelveticaNeue-Bold'" font-size="15px">Number of risk factors</text>
+						</g>
+						
+						
+						
+
+						<g id="VTEbutton0" class="button">
+							<circle fill="#438886" cx="554.478" cy="220.341" r="15.962"/>
+							<text transform="matrix(1 0 0 1 548.7067 227.1475)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="20.284px">0</text>
+							
+						</g>
+
+						<circle id="VTEbutton0ring" display="none"  fill="none" stroke="#438886" stroke-width="2" stroke-miterlimit="10" cx="554.478" cy="220.341" r="19.378"/>
+
+						<g id="VTEbutton1" class="button">
+							<circle fill="#40849F" cx="594.478" cy="220.341" r="15.962"/>
+							<text transform="matrix(1 0 0 1 588.6116 227.1475)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="20.284px">1</text>
+						</g>
+
+						<circle id="VTEbutton1ring" display="none" fill="none" stroke="#40849F" stroke-width="2" stroke-miterlimit="10" cx="594.478" cy="220.341" r="19.378"/>
+
+						<g id="VTEbutton2" class="button">
+							<path fill="#4081B3" d="M634.478,236.303c-8.816,0-15.962-7.146-15.962-15.962s7.146-15.962,15.962-15.962h40h25.957
+							c8.816,0,15.962,7.146,15.962,15.962s-7.146,15.962-15.962,15.962h-25.957"/>
+							<text transform="matrix(1 0 0 1 627.8514 227.1475)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="20.284px">2+</text>
+							<text transform="matrix(1 0 0 1 657.4095 217.8363)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="13px">or prior</tspan><tspan x="10.705" y="13" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="13px">VTE</tspan></text>
+						</g>
+
+						<rect id="VTEbutton2ring" x="615" y="201.5" width="105" height="38" rx="19" ry="19" fill="none" stroke="#4081B3" stroke-width="2" display="none"/>
+						
+
+
+
+
+							<image overflow="visible" width="220" height="96" xlink:href="rotbiggs.png"  transform="matrix(0.3832 0 0 0.3832 435.1207 32.0966)">
+						</image>
+						
+							<image overflow="visible" width="184" height="96" xlink:href="rotbus.png"  transform="matrix(0.3832 0 0 0.3832 538.3564 32.0966)">
+						</image>
+						
+							<image overflow="visible" width="245" height="96" xlink:href="clue.png"  transform="matrix(0.3832 0 0 0.3832 622.8522 32.0966)">
+						</image>
+
+						
+					</g>
+
+
+
+
+					<g id="resultsDisplay" display="none">
+
+						<rect x="16.365" y="262.907" fill="#FFFFFF" width="599.605" height="137.54"/>
+						<rect x="16.365" y="262.515" fill="#4081B3" width="599.605" height="30.221"/>
+						<rect x="619.927" y="262.907" fill="#FFFFFF" width="111.767" height="137.54"/>
+						<rect x="619.927" y="262.515" fill="#4081B3" width="111.767" height="30.221"/>
+						<rect x="16.365" y="416.325" fill="#FFFFFF" width="599.605" height="137.54"/>
+						<rect x="16.365" y="570.505" fill="#FFFFFF" width="599.605" height="137.54"/>
+
+						
+
+
+
+						<g>
+							<g>
+								<path fill="#CCCCCC" d="M162,467.917c1.93,0,1.934-3,0-3C160.07,464.917,160.066,467.917,162,467.917L162,467.917z"/>
+							</g>
+						</g>
+
+						
+
+
+						<g>
+							<g>
+								<path fill="#CCCCCC" d="M162,621.097c1.93,0,1.934-3,0-3C160.07,618.097,160.066,621.097,162,621.097L162,621.097z"/>
+							</g>
+						</g>
+
+						<g id="bleedReinterventionScale">
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="110.289" y1="518.336" x2="110.289" y2="526.306"/>
+							<text id="bleedReinterventionScaleText1" class="riskScaleText1" text-anchor="middle" transform="matrix(1 0 0 1 110.2886 540.806)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">0%</text>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="519.314" y1="518.336" x2="519.314" y2="526.306"/>
+							<text id="bleedReinterventionScaleText5" class="riskScaleText5" text-anchor="middle" transform="matrix(1 0 0 1 519.3141 540.806)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">10%</text>
+							<text id="bleedReinterventionScaleText3" class="riskScaleText3" text-anchor="middle" transform="matrix(1 0 0 1 314.8014 540.806)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">5%</text>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="212.545" y1="518.336" x2="212.545" y2="526.306"/>
+							<text id="bleedReinterventionScaleText2" class="riskScaleText2" text-anchor="middle" transform="matrix(1 0 0 1 212.545 540.806)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">2.5%</text>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="468.186" y1="518.336" x2="468.186" y2="526.306"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="314.801" y1="518.336" x2="314.801" y2="526.306"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="417.058" y1="518.336" x2="417.058" y2="526.306"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="365.93" y1="518.336" x2="365.93" y2="526.306"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="161.417" y1="518.336" x2="161.417" y2="526.306"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="263.673" y1="518.336" x2="263.673" y2="526.306"/>
+							<text id="bleedReinterventionScaleText4" class="riskScaleText4" text-anchor="middle" transform="matrix(1 0 0 1 417.0577 540.806)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">7.5%</text>
+						</g>
+						<g id="bleedTransScale">
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="110.289" y1="673.516" x2="110.289" y2="681.487"/>
+							<text id="bleedTransScaleText1" class="riskScaleText1" text-anchor="middle" transform="matrix(1 0 0 1 110.2886 695.9862)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">0%</text>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="519.314" y1="673.516" x2="519.314" y2="681.487"/>
+							<text id="bleedTransScaleText5"  class="riskScaleText5" text-anchor="middle" transform="matrix(1 0 0 1 519.3141 695.9862)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">10%</text>
+							<text id="bleedTransScaleText3"  class="riskScaleText3" text-anchor="middle" transform="matrix(1 0 0 1 314.8014 695.9862)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">5%</text>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="212.545" y1="673.516" x2="212.545" y2="681.487"/>
+							<text id="bleedTransScaleText2"  class="riskScaleText2" text-anchor="middle" transform="matrix(1 0 0 1 212.545 695.9862)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">2.5%</text>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="468.186" y1="673.516" x2="468.186" y2="681.487"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="314.801" y1="673.516" x2="314.801" y2="681.487"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="417.058" y1="673.516" x2="417.058" y2="681.487"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="365.93" y1="673.516" x2="365.93" y2="681.487"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="161.417" y1="673.516" x2="161.417" y2="681.487"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="263.673" y1="673.516" x2="263.673" y2="681.487"/>
+							<text id="bleedTransScaleText4" class="riskScaleText4"  text-anchor="middle" transform="matrix(1 0 0 1 417.0577 695.9862)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">7.5%</text>
+						</g>
+						<g id="vteScale">
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="110.289" y1="365.907" x2="110.289" y2="373.877"/>
+							<text id="vteScaleText1"  class="riskScaleText1"  text-anchor="middle" transform="matrix(1 0 0 1 110.2886 388.377)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">0%</text>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="519.314" y1="365.907" x2="519.314" y2="373.877"/>
+							<text id="vteScaleText5" class="riskScaleText5" text-anchor="middle" transform="matrix(1 0 0 1 519.3141 388.377)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">10%</text>
+							<text id="vteScaleText3" class="riskScaleText3" text-anchor="middle"  transform="matrix(1 0 0 1 314.8014 388.377)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">5%</text>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="212.545" y1="365.907" x2="212.545" y2="373.877"/>
+							<text id="vteScaleText2" class="riskScaleText2" text-anchor="middle" transform="matrix(1 0 0 1 212.545 388.377)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">2.5%</text>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="468.186" y1="365.907" x2="468.186" y2="373.877"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="314.801" y1="365.907" x2="314.801" y2="373.877"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="417.058" y1="365.907" x2="417.058" y2="373.877"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="365.93" y1="365.907" x2="365.93" y2="373.877"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="161.417" y1="365.907" x2="161.417" y2="373.877"/>
+							<line fill="none" stroke="#B3B3B3" stroke-miterlimit="10" x1="263.673" y1="365.907" x2="263.673" y2="373.877"/>
+							<text id="vteScaleText4" class="riskScaleText4" text-anchor="middle" transform="matrix(1 0 0 1 417.0577 388.377)" fill="#6F6F6E" font-family="'HelveticaNeue'" font-size="13.3011px">7.5%</text>
+						</g>
+
+
+
+						<rect x="16.365" y="416.325" fill="#C12118" width="599.605" height="30.221"/>
+						<rect x="16.365" y="570.505" fill="#C12118" width="599.605" height="30.221"/>
+						<text transform="matrix(1 0 0 1 48.3178 282.7642)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="15px">Risk of venous thromboembolism</text>
+
+						<g>
+							<text transform="matrix(1 0 0 1 640.9991 282.764)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="15px">Certainty</text>
+						</g>
+
+						<rect x="619.927" y="416.717" fill="#FFFFFF" width="111.767" height="137.54"/>
+						<rect x="619.927" y="416.325" fill="#C12118" width="111.767" height="30.221"/>
+
+						<g>
+							<text transform="matrix(1 0 0 1 640.9991 436.5731)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="15px">Certainty</text>
+						</g>
+						<rect x="619.927" y="570.897" fill="#FFFFFF" width="111.767" height="137.54"/>
+						<rect x="619.927" y="570.505" fill="#C12118" width="111.767" height="30.221"/>
+
+						<g>
+							<text transform="matrix(1 0 0 1 640.9991 590.7538)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="15px">Certainty</text>
+						</g>
+						<text transform="matrix(1 0 0 1 48.3179 436.5734)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="15px">Risk of bleeding requiring reintervention</text>
+						<text transform="matrix(1 0 0 1 48.3179 590.7537)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="15px">Risk of bleeding leading to transfusion</text>
+						<g>
+							<g>
+								<ellipse opacity="0.5" fill="#FFFFFF" cx="31.271" cy="277.626" rx="10.107" ry="10.184"/>
+								<ellipse opacity="0.5" fill="#FFFFFF" cx="31.271" cy="277.626" rx="7.148" ry="7.202"/>
+								<ellipse fill="#FFFFFF" cx="31.271" cy="277.626" rx="3.795" ry="3.824"/>
+							</g>
+						</g>
+						<path opacity="0.66" fill="#FFFFFF" d="M34.95,424.768c-0.65-1.053-1.271-2.061-1.823-3.027c-0.012-0.033-0.028-0.07-0.039-0.102
+							c-0.002,0.007-0.006,0.015-0.008,0.022c-0.004-0.007-0.009-0.015-0.013-0.022c-0.592,1.063-1.276,2.157-1.992,3.304
+							c-1.943,3.11-4.362,6.98-4.362,9.828c0,3.562,2.876,6.46,6.411,6.46h0h0c0,0,0,0,0.001,0c3.536-0.001,6.412-2.898,6.412-6.459
+							C39.536,432.194,36.885,427.902,34.95,424.768z"/>
+						<path fill="#FFFFFF" d="M36.005,430.407c-0.218-0.338-0.426-0.661-0.61-0.971c-0.004-0.011-0.009-0.022-0.013-0.033
+							c-0.001,0.002-0.002,0.005-0.003,0.007c-0.001-0.002-0.003-0.005-0.004-0.007c-0.198,0.341-0.427,0.692-0.667,1.06
+							c-0.651,0.998-1.46,2.24-1.46,3.153c0,1.143,0.963,2.072,2.147,2.072h0h0c0,0,0,0,0,0c1.184,0,2.147-0.93,2.147-2.072
+							C37.541,432.789,36.653,431.412,36.005,430.407z"/>
+						
+							<path fill="#F2C7CA" d="M38.412,596.303H27.639c-1.136,0-2.065-0.929-2.065-2.065c0.972-5.724,1.098-11.393,0-16.981
+								c0-1.136,0.929-2.065,2.065-2.065c3.63-0.478,7.222-0.488,10.772,0c1.136,0,2.065,0.929,2.065,2.065
+								c-1.131,5.731-1.077,11.388,0,16.981C40.476,595.374,39.547,596.303,38.412,596.303z"/>
+							<path fill="#FFFFFF" d="M36.719,594.44h-7.387c-0.779,0-1.416-0.701-1.416-1.558c0.666-4.32,0.753-8.597,0-12.815
+								c0-0.857,0.637-1.558,1.416-1.558h7.387c0.779,0,1.416,0.701,1.416,1.558c-0.775,4.325-0.738,8.594,0,12.815
+								C38.135,593.739,37.498,594.44,36.719,594.44z"/>
+							<path fill="#E58F95" d="M37.673,583.682c-0.238,3.094-0.07,6.159,0.462,9.2c0,0.857-0.637,1.558-1.416,1.558h-7.387
+								c-0.779,0-1.416-0.701-1.416-1.558c0.477-3.092,0.657-6.163,0.444-9.205"/>
+							<path fill="#C12118" d="M31.085,576.692c0,0.457,0.869,0.828,1.94,0.828c1.072,0,1.94-0.371,1.94-0.828v-0.845
+								c-1.305-0.127-2.601-0.149-3.881,0L31.085,576.692z"/>
+							<rect x="32.146" y="593.043" fill="#E58F95" width="1.759" height="7.683"/>
+
+						
+
+						<line id="vteArrowShaft" stroke-width="1.5" stroke="#4081B3" x1="110.2886" y1="333.057" y1="110.2886" y2="333.057" />
+
+						<g id="vteRiskWith">
+							<circle fill="#4081B3" cx="110.2886" cy="333.057" r="16.725"/>
+							<text transform="matrix(1 0 0 1 110.2886 337.9807)" fill="#FFFFFF" font-family="'HelveticaNeue'" text-anchor="middle" font-size="13.3011px">2.6</text>
+							<g>
+								<text transform="matrix(1 0 0 1 63.7972 329.8979)"><tspan x="0" y="0" fill="#4081B3" font-family="'HelveticaNeue'" font-size="12.2333px">With </tspan><tspan x="-38.277" y="13.763" fill="#4081B3" font-family="'HelveticaNeue'" font-size="12.2333px">prophylaxis</tspan></text>
+							</g>
+
+							<polygon id="vteArrowhead" fill="#4081B3" points="127.0136,333.057 134.0136,328.557 134.0136,337.557  " />
+							
+						</g>
+
+						<g id="vteRiskWithout">
+							<circle fill="#B6C8E1" cx="110.2886" cy="333.057" r="16.725"/>
+							<text transform="matrix(1 0 0 1 110.2886 337.9807)" fill="#575756" font-family="'HelveticaNeue'" text-anchor="middle" font-size="13.3011px">42.0</text>
+							<g>
+								<text transform="matrix(1 0 0 1 133.7972 329.1606)"><tspan x="0" y="0" fill="#575756" font-family="'HelveticaNeue'" font-size="12.2333px">Without </tspan><tspan x="0" y="13.763" fill="#575756" font-family="'HelveticaNeue'" font-size="12.2333px">prophylaxis</tspan></text>
+							</g>
+							
+							
+							
+						</g>
+
+						<g id="vteCertainty">
+							<polygon id="vteCertaintyStar1" fill="#FFCD44" points="649.548,321.37 652.041,326.422 657.615,327.232 653.582,331.163 654.534,336.715 
+								649.548,334.094 644.562,336.715 645.514,331.163 641.48,327.232 647.055,326.422 		"/>
+							<polygon id="vteCertaintyStar2" fill="#FFCD44" points="666.122,321.37 668.615,326.422 674.189,327.232 670.156,331.163 671.108,336.715 
+								666.122,334.094 661.136,336.715 662.088,331.163 658.055,327.232 663.629,326.422 		"/>
+							<polygon id="vteCertaintyStar3" fill="#FFCD44" points="682.696,321.37 685.189,326.422 690.764,327.232 686.73,331.163 687.682,336.715 682.696,334.094 
+								677.71,336.715 678.662,331.163 674.629,327.232 680.203,326.422 		"/>
+							<polygon id="vteCertaintyStar4" fill="#E6E6E6" points="699.27,321.37 701.763,326.422 707.338,327.232 703.304,331.163 704.256,336.715 699.27,334.094 
+								694.284,336.715 695.237,331.163 691.203,327.232 696.777,326.422 		"/>
+							<g>
+								<text id="vteCertaintytext" transform="matrix(1 0 0 1 676.728 359.4874)" fill="#575756" font-family="'HelveticaNeue'" text-anchor="middle" font-size="13.3011px">Moderate</text>
+							</g>
+						</g>
+
+
+
+						<line id="bleedReinterventionArrowShaft" stroke-width="1.5" stroke="#C12118" x1="110.2886" y1="484.5" y1="110.2886" y2="484.5" />
+
+						<g id="bleedReinterventionRiskWith">
+							<circle fill="#C12118" cx="110.2886" cy="484.5" r="16.725"/>
+							<text transform="matrix(1 0 0 1 110.2886 489.4239)" text-anchor="middle" fill="#FFFFFF" font-family="'HelveticaNeue'" font-size="13.3011px">1.9</text>
+							<g>
+								<rect x="304.032" y="462.865" fill="none" width="66.784" height="30.131"/>
+								<text transform="matrix(1 0 0 1 133.7972 480.3479)"><tspan x="0" y="0" fill="#C12118" font-family="'HelveticaNeue'" font-size="12.2333px">With </tspan><tspan x="0" y="13.763" fill="#C12118" font-family="'HelveticaNeue'" font-size="12.2333px">prophylaxis</tspan></text>
+							</g>
+
+							<polygon id="bleedReinterventionArrowhead" fill="#C12118" points="93.5636,484.5 86.5636,480 86.5636,489  " />
+							
+						</g>
+
+						<g id="bleedReinterventionRiskWithout">
+							<circle fill="#E6A6A3" cx="110.2886" cy="484.5" r="16.725"/>
+							<text transform="matrix(1 0 0 1 110.2886 489.4239)" text-anchor="middle" fill="#575756" font-family="'HelveticaNeue'" font-size="13.3011px">1.4</text>
+							<g>
+								<rect x="117.569" y="463.128" fill="none" width="78.481" height="30.131"/>
+								<text transform="matrix(1 0 0 1 45.7972 480.6116)"><tspan x="0" y="0" fill="#575756" font-family="'HelveticaNeue'" font-size="12.2333px">Without </tspan><tspan x="-20.6" y="13.763" fill="#575756" font-family="'HelveticaNeue'" font-size="12.2333px">prophylaxis</tspan></text>
+							</g>
+								
+							
+						</g>
+						
+						
+
+						<g id="bleedReinterventionCertainty">
+							<polygon id="bleedReinterventionCertaintyStar1" fill="#FFCD44" points="649.548,475.179 652.041,480.231 657.615,481.041 653.581,484.973 654.534,490.525 
+								649.548,487.903 644.562,490.525 645.514,484.973 641.48,481.041 647.055,480.231 		"/>
+							<polygon id="bleedReinterventionCertaintyStar2" fill="#FFCD44" points="666.122,475.179 668.615,480.231 674.189,481.041 670.156,484.973 671.108,490.525 
+								666.122,487.903 661.136,490.525 662.088,484.973 658.055,481.041 663.629,480.231 		"/>
+							<polygon id="bleedReinterventionCertaintyStar3" fill="#FFCD44" points="682.696,475.179 685.189,480.231 690.764,481.041 686.73,484.973 687.682,490.525 
+								682.696,487.903 677.71,490.525 678.662,484.973 674.629,481.041 680.203,480.231 		"/>
+							<polygon id="bleedReinterventionCertaintyStar4" fill="#E6E6E6" points="699.27,475.179 701.763,480.231 707.338,481.041 703.304,484.973 704.256,490.525 699.27,487.903 
+								694.284,490.525 695.237,484.973 691.203,481.041 696.777,480.231 		"/>
+							<g>
+								<text id="bleedReinterventionCertaintyText" text-anchor="middle" transform="matrix(1 0 0 1 676.728 513.2966)" fill="#575756" font-family="'HelveticaNeue'" font-size="13.3011px">Moderate</text>
+							</g>
+						</g>
+
+
+
+						<line id="bleedTransfusionArrowShaft" stroke-width="1.5" stroke="#C12118" x1="110.2886" y1="638.681" y1="110.2886" y2="638.681" />
+
+						<g id="bleedTransfusionRiskWith">
+							<circle fill="#C12118" cx="110.2886" cy="638.681" r="16.725"/>
+							<text transform="matrix(1 0 0 1 110.2886 643.6042)" text-anchor="middle" fill="#FFFFFF" font-family="'HelveticaNeue'" font-size="13.3011px">1.9</text>
+							<g>
+								<text transform="matrix(1 0 0 1 133.7972 634.5282)"><tspan x="0" y="0" fill="#C12118" font-family="'HelveticaNeue'" font-size="12.2333px">With </tspan><tspan x="0" y="13.763" fill="#C12118" font-family="'HelveticaNeue'" font-size="12.2333px">prophylaxis</tspan></text>
+							</g>
+
+							<polygon id="bleedTransfusionArrowhead" fill="#C12118" points="93.5636,638.681 86.5636,634.181 86.5636,643.181  " />
+							
+						</g>
+
+						<g id="bleedTransfusionRiskWithout">
+							<circle fill="#E6A6A3" cx="110.2886" cy="638.681" r="16.725"/>
+							<text transform="matrix(1 0 0 1 110.2886 643.6042)" text-anchor="middle" fill="#575756" font-family="'HelveticaNeue'" font-size="13.3011px">1.4</text>
+
+							<g>
+								<text transform="matrix(1 0 0 1 45.7972 634.7919)"><tspan x="0" y="0" fill="#575756" font-family="'HelveticaNeue'" font-size="12.2333px">Without </tspan><tspan x="-20.6" y="13.763" fill="#575756" font-family="'HelveticaNeue'" font-size="12.2333px">prophylaxis</tspan></text>
+							</g>
+								
+						</g>
+
+					
+
+						<g id="bleedTransfusionCertainty">
+							<polygon id="bleedTransfusionCertaintyStar1" fill="#FFCD44" points="649.548,629.36 652.041,634.411 657.615,635.221 653.581,639.153 654.534,644.705 
+								649.548,642.084 644.562,644.705 645.514,639.153 641.48,635.221 647.055,634.411 		"/>
+							<polygon id="bleedTransfusionCertaintyStar2" fill="#FFCD44" points="666.122,629.36 668.615,634.411 674.189,635.221 670.156,639.153 671.108,644.705 
+								666.122,642.084 661.136,644.705 662.088,639.153 658.055,635.221 663.629,634.411 		"/>
+							<polygon id="bleedTransfusionCertaintyStar3" fill="#FFCD44" points="682.696,629.36 685.189,634.411 690.764,635.221 686.73,639.153 687.682,644.705 682.696,642.084 
+								677.71,644.705 678.662,639.153 674.629,635.221 680.203,634.411 		"/>
+							<polygon id="bleedTransfusionCertaintyStar4" fill="#E6E6E6" points="699.27,629.36 701.763,634.411 707.338,635.221 703.304,639.153 704.256,644.705 699.27,642.084 
+								694.284,644.705 695.237,639.153 691.203,635.221 696.777,634.411 		"/>
+							<g>
+								<text id="bleedTransfusionCertaintyText" text-anchor="middle" transform="matrix(1 0 0 1 676.728 667.4769)" fill="#575756" font-family="'HelveticaNeue'" font-size="13.3011px">Moderate</text>
+							</g>
+						</g>
+
+
+
+						
+
+					</g>
+
+					<g id="footnotes">
+						<g id="lymphadenectomyLaparoscopic" class="footnote" display="none">
+							<rect x="385.437" y="153.499" display="inline" fill="#4081B3" width="330.033" height="26.603"/>
+							
+								<rect x="552.271" y="150.838" transform="matrix(0.7071 -0.7071 0.7071 0.7071 52.4803 441.012)" display="inline" fill="#4081B3" width="12.637" height="12.637"/>
+							<g display="inline">
+								<text transform="matrix(1 0 0 1 393.1604 170.783)" fill="#FFFFFF" font-family="'HelveticaNeue'" font-size="13.3011px">* With lymphadenectomy performed laparoscopically</text>
+							</g>
+						</g>
+						<g id="lymphadenectomy" class="footnote" display="none">
+							<rect x="502.833" y="153.499" display="inline" fill="#4081B3" width="166.494" height="26.603"/>
+							
+								<rect x="552.271" y="150.838" transform="matrix(0.7071 -0.7071 0.7071 0.7071 52.4803 441.012)" display="inline" fill="#4081B3" width="12.637" height="12.637"/>
+							<g display="inline">
+								<text transform="matrix(1 0 0 1 510.5557 170.783)" fill="#FFFFFF" font-family="'HelveticaNeue'" font-size="13.3011px">* With lymphadenectomy</text>
+							</g>
+						</g>
+						<g id="nonAsian" class="footnote" display="none">
+							<rect x="502.833" y="153.499" display="inline" fill="#4081B3" width="158.603" height="26.603"/>
+							
+								<rect x="552.271" y="150.838" transform="matrix(0.7071 -0.7071 0.7071 0.7071 52.4803 441.012)" display="inline" fill="#4081B3" width="12.637" height="12.637"/>
+							<g display="inline">
+								<text transform="matrix(1 0 0 1 510.5557 170.783)" fill="#FFFFFF" font-family="'HelveticaNeue'" font-size="13.3011px">* In non-Asian countries</text>
+							</g>
+						</g>
+						<g id="PLND" class="footnote" display="none">
+							<rect x="470.579" y="153.499" fill="#4081B3" width="247.005" height="26.603"/>
+							
+								<rect x="552.271" y="150.838" transform="matrix(0.7071 -0.7071 0.7071 0.7071 52.4803 441.012)" fill="#4081B3" width="12.637" height="12.637"/>
+								<g>
+									<text transform="matrix(1 0 0 1 477.9836 170.783)" fill="#FFFFFF" font-family="'HelveticaNeue'" font-size="13.3011px">* PLND = pelvic lymph node dissection</text>
+								</g>
+							</g>
+						</g>
+						<g id="vulvectomy" class="footnote" display="none">
+							<rect x="248.441" y="153.499" fill="#4081B3" width="300.501" height="26.603"/>
+							
+								<rect x="391.986" y="150.838" transform="matrix(0.7071 -0.7071 0.7071 0.7071 5.534 327.6736)" fill="#4081B3" width="12.637" height="12.637"/>
+							<g>
+								<text transform="matrix(1 0 0 1 255.8462 170.783)" fill="#FFFFFF" font-family="'HelveticaNeue'" font-size="13.3011px">* Including radical and non-radical vulvectomies</text>
+							</g>
+						</g>
+					</g>
+
+					
+					
+					<g id="menus">
+						<foreignObject id="surgeryTypeDropdownObject" x="27" y="126" width="250" height="25">
+					      <div xmlns="http://www.w3.org/1999/xhtml">
+					      <select name="surgeryTypeDropdown" id="surgeryTypeDropdown" style="width:250px; font-size: 18px"></select>
+					      </div>
+						</foreignObject>
+
+						<foreignObject id="procedureDropdownObject" x="310" y="126" width="188" height="25">
+					      <div xmlns="http://www.w3.org/1999/xhtml">
+					      <select name="procedureDropdown" id="procedureDropdown" style="width:188px; font-size: 18px"></select>
+					      </div>
+						</foreignObject>
+
+						<foreignObject id="methodDropdownObject" x="533" y="126" width="188" height="25">
+					      <div xmlns="http://www.w3.org/1999/xhtml">
+					      <select name="methodDropdown" id="methodDropdown" style="width:188px; font-size: 18px"></select>
+					      </div>
+						</foreignObject>
+					</g>
+
+					<g id="linksMask" display="none">
+					  <rect width="750" height="750" fill="#000" opacity=".8" stroke-width="0"/>
+					</g>
+					<g id="linksButton" class="button">
+					  <rect x="16.365" y="716.535" width="171.782" height="25.452" rx="5.548" ry="5.548" fill="#4081b3" stroke-width="0"/>
+					  <text transform="translate(26.123 733.796)" fill="#fff" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Read the full guidance</tspan></text>
+					</g>
+					<g id="linksPane" display="none">
+					  <rect x="15.64" y="279.379" width="722.427" height="424.854" fill="#fff" stroke-width="0"/>
+					  <rect x="89.278" y="687.41" width="23.716" height="23.716" transform="translate(-464.835 276.325) rotate(-45)" fill="#fff" stroke-width="0"/>
+					  <text transform="translate(70.143 350.662)" fill="#575756" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Validation study: The CLUE </tspan><tspan x="0" y="18">Post-Surgery VTE Risk Instrument</tspan></text>
+					  <g>
+					    <circle cx="42.321" cy="351.646" r="12.846" fill="#575756" stroke-width="0"/>
+					    <text transform="translate(37.012 357.753)" fill="#fff" font-family="HelveticaNeue-Bold, &apos;Helvetica Neue&apos;" font-size="18.466" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+					  </g>
+					  
+					  <text transform="translate(70.143 410.662)" fill="#575756" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Systematic Review: general abdominal, </tspan><tspan x="0" y="18">colorectal, upper GI, and HPB surgery</tspan></text>
+					  <text transform="translate(403.16 410.662)" fill="#575756" font-family="HelveticaNeue-Italic, &apos;Helvetica Neue&apos;" font-size="15" font-style="italic"><tspan x="0" y="0">Annals of Surgery</tspan></text>
+					  <text transform="translate(402.35 470.662)" fill="#575756" font-family="HelveticaNeue-Italic, &apos;Helvetica Neue&apos;" font-size="15" font-style="italic"><tspan x="0" y="0">American Journal of </tspan><tspan x="0" y="18">Obstetrics and Gynecology</tspan></text>
+					  <text transform="translate(402.35 530.662)" fill="#575756" font-family="HelveticaNeue-Italic, &apos;Helvetica Neue&apos;" font-size="15" font-style="italic"><tspan x="0" y="0">American Journal of </tspan><tspan x="0" y="18">Obstetrics and Gynecology</tspan></text>
+					  <text transform="translate(402.35 593.438)" fill="#575756" font-family="HelveticaNeue-Italic, &apos;Helvetica Neue&apos;" font-size="15" font-style="italic"><tspan x="0" y="0">European Urology</tspan></text>
+					  <text transform="translate(402.35 657.438)" fill="#575756" font-family="HelveticaNeue-Italic, &apos;Helvetica Neue&apos;" font-size="15" font-style="italic"><tspan x="0" y="0">European Urology</tspan></text>
+					  <g>
+					    <circle cx="42.321" cy="411.646" r="12.846" fill="#575756" stroke-width="0"/>
+					    <text transform="translate(37.012 417.753)" fill="#fff" font-family="HelveticaNeue-Bold, &apos;Helvetica Neue&apos;" font-size="18.466" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+					  </g>
+					  <a href="" target="new">
+					  	<g id="articleLink1" class="button">
+						    <rect x="603.587" y="337.92" width="119.943" height="25.452" rx="4.773" ry="4.773" fill="#4081b3" stroke-width="0"/>
+						    <text transform="translate(616.447 355.398)" fill="#fff" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Link to article</tspan></text>
+					  	</g>
+					  </a>
+					  <a href="https://journals.lww.com/annalsofsurgery/fulltext/2024/02000/systematic_reviews_and_meta_analyses_of_the.4.aspx" target="new">
+					  <g id="articleLink2" class="button">
+					    <rect x="603.587" y="397.92" width="119.943" height="25.452" rx="4.773" ry="4.773" fill="#4081b3" stroke-width="0"/>
+					    <text transform="translate(616.447 415.398)" fill="#fff" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Link to article</tspan></text>
+					  </g>
+					  </a>
+					  <a href="https://www.sciencedirect.com/science/article/pii/S0002937823007354" target="new">
+					  <g id="articleLink3" class="button">
+					    <rect x="603.587" y="457.92" width="119.943" height="25.452" rx="4.773" ry="4.773" fill="#4081b3" stroke-width="0"/>
+					    <text transform="translate(616.447 475.398)" fill="#fff" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Link to article</tspan></text>
+					  </g>
+					  </a>
+					  <a href="https://www.sciencedirect.com/science/article/pii/S0002937823021178" target="new">
+					  <g id="articleLink4" class="button">
+					    <rect x="603.587" y="517.92" width="119.943" height="25.452" rx="4.773" ry="4.773" fill="#4081b3" stroke-width="0"/>
+					    <text transform="translate(616.447 535.398)" fill="#fff" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Link to article</tspan></text>
+					  </g>
+					  </a>
+					  <a href="https://www.sciencedirect.com/science/article/pii/S0302283817301732" target="new">
+					  <g id="articleLink5" class="button">
+					    <rect x="603.587" y="580.696" width="119.943" height="25.452" rx="4.773" ry="4.773" fill="#4081b3" stroke-width="0"/>
+					    <text transform="translate(616.447 598.174)" fill="#fff" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Link to article</tspan></text>
+					  </g>
+					  </a>
+					  <a href="https://www.sciencedirect.com/science/article/pii/S0302283817301148?via" target="new">
+					  <g id="articleLink6" class="button">
+					    <rect x="603.587" y="644.696" width="119.943" height="25.452" rx="4.773" ry="4.773" fill="#4081b3" stroke-width="0"/>
+					    <text transform="translate(616.447 662.174)" fill="#fff" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Link to article</tspan></text>
+					  </g>
+					  </a>
+					  <text transform="translate(70.143 470.662)" fill="#575756" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Systematic review: gynecologic </tspan><tspan x="0" y="18">cancer surgery</tspan></text>
+					  <g>
+					    <circle cx="42.321" cy="471.646" r="12.846" fill="#575756" stroke-width="0"/>
+					    <text transform="translate(37.012 477.753)" fill="#fff" font-family="HelveticaNeue-Bold, &apos;Helvetica Neue&apos;" font-size="18.466" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+					  </g>
+					  
+					  <text transform="translate(70.143 530.662)" fill="#575756" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Systematic review: gynecologic </tspan><tspan x="0" y="18">noncancer surgery</tspan></text>
+					  <g>
+					    <circle cx="42.321" cy="531.646" r="12.846" fill="#575756" stroke-width="0"/>
+					    <text transform="translate(37.012 537.753)" fill="#fff" font-family="HelveticaNeue-Bold, &apos;Helvetica Neue&apos;" font-size="18.466" font-weight="700"><tspan x="0" y="0">4</tspan></text>
+					  </g>
+					  
+					  <text transform="translate(70.143 593.438)" fill="#575756" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Systematic review: urological </tspan><tspan x="0" y="18">cancer surgery</tspan></text>
+					  <g>
+					    <circle cx="42.321" cy="594.422" r="12.846" fill="#575756" stroke-width="0"/>
+					    <text transform="translate(37.012 600.528)" fill="#fff" font-family="HelveticaNeue-Bold, &apos;Helvetica Neue&apos;" font-size="18.466" font-weight="700"><tspan x="0" y="0">5</tspan></text>
+					  </g>
+					  
+					  <text transform="translate(70.143 657.438)" fill="#575756" font-family="HelveticaNeue, &apos;Helvetica Neue&apos;" font-size="15"><tspan x="0" y="0">Systematic review: urological </tspan><tspan x="0" y="18">noncancer surgery</tspan></text>
+					  <g>
+					    <circle cx="42.321" cy="658.422" r="12.846" fill="#575756" stroke-width="0"/>
+					    <text transform="translate(37.012 664.528)" fill="#fff" font-family="HelveticaNeue-Bold, &apos;Helvetica Neue&apos;" font-size="18.466" font-weight="700"><tspan x="0" y="0">6</tspan></text>
+					  </g>
+					  
+					  <line x1="31.451" y1="390.906" x2="723.178" y2="390.906" fill="none" stroke="#575756" stroke-miterlimit="10"/>
+					  <line x1="31.451" y1="329.638" x2="723.178" y2="329.638" fill="none" stroke="#575756" stroke-miterlimit="10"/>
+					  <line x1="31.451" y1="450.906" x2="723.178" y2="450.906" fill="none" stroke="#575756" stroke-miterlimit="10"/>
+					  <line x1="31.451" y1="510.906" x2="723.178" y2="510.906" fill="none" stroke="#575756" stroke-miterlimit="10"/>
+					  <line x1="31.451" y1="573.681" x2="723.178" y2="573.681" fill="none" stroke="#575756" stroke-miterlimit="10"/>
+					  <line x1="31.451" y1="637.681" x2="723.178" y2="637.681" fill="none" stroke="#575756" stroke-miterlimit="10"/>
+					  <g id="linksCloseButton" class="button">
+					    <rect x="704.516" y="286.846" width="30.304" height="28.987" fill="#fff" stroke-width="0"/>
+					    <line x1="710.28" y1="291.951" x2="729.055" y2="310.727" fill="none" stroke="#575756" stroke-miterlimit="10"/>
+					    <line x1="729.055" y1="291.951" x2="710.28" y2="310.727" fill="none" stroke="#575756" stroke-miterlimit="10"/>
+					  </g>
+					</g>
+
+
+
+
+
+				</svg>
+
+			</div>
+
+		</div>
+
+		<script src="code.js"></script>
+
+	</body>
+
+</html>

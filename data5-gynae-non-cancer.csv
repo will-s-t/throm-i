@@ -1,0 +1,25 @@
+Procedure and method,Procedure,Method,LOW VTE risk without thromboprophylaxis,MEDIUM VTE risk without thromboprophylaxis,HIGH VTE risk without thromboprophylaxis,Evidence quality VTE,Bleeding requiring reintervention without thromboprophylaxis,Evidence quality bleeding requiring reoperation,LOW VTE risk with thromboprophylaxis,MEDIUM VTE risk with thromboprophylaxis,HIGH VTE risk with thromboprophylaxis,Bleeding requiring reintervention with thromboprophylaxis,,Bleeding leading to transfusion without thromboprophylaxis,Evidence quality bleeding leading to transfusion,Bleeding leading to transfusion with thromboprophylaxis
+"Deep endometriosis surgery, minimally-invasive",Deep endometriosis surgery,minimally-invasive,0.4,0.9,1.7,Very low,0.6,Low,0.2,0.4,0.8,0.9,,1.1,Very low,1.7
+"Myomectomy, minimally-invasive",Myomectomy,minimally-invasive,<0.1,0.1,0.1,High,0.3,Low,<0.1,<0.1,<0.1,0.5,,2.7,Low,4.1
+"Myomectomy, open",Myomectomy,open,0.4,0.9,1.7,Moderate,4.0,Very low,0.2,0.4,0.8,6.0,,14.1,Low,21.3
+"Management of adnexal torsion, laparoscopic",Management of adnexal torsion,laparoscopic,0.1,0.1,0.2,Low,NR,,<0.1,<0.1,0.1,NR,,NR,,
+"Management of adnexal torsion, open",Management of adnexal torsion,open,0.3,0.5,1.1,Low,NR,,0.1,0.2,0.5,NR,,NR,,
+"Oophorectomy, minimally-invasive",Oophorectomy,minimally-invasive,0.1,0.3,0.6,Moderate,NR,,<0.1,0.1,0.3,NR,,0.9,Low,1.4
+"Ovarian cystectomy, minimally-invasive",Ovarian cystectomy,minimally-invasive,0.1,0.1,0.2,Low,NR,,<0.1,<0.1,0.1,NR,,0.7,Low,1.1
+"Sterilisation by means of tubal occlusion, minimally-invasive",Sterilisation by means of tubal occlusion,minimally-invasive,<0.1,<0.1,0.1,Moderate,NR,,<0.1,<0.1,<0.1,NR,,NR,,
+Transvaginal oocyte retrieval,Transvaginal oocyte retrieval,Any,<0.1,<0.1,0.1,High,<0.1,Low,<0.1,<0.1,<0.1,NR,,<0.1,Low,<0.1
+"Sacrocolpopexy, minimally-invasive",Sacrocolpopexy,minimally-invasive,0.4,0.9,1.7,Low,0.2,Moderate,0.2,0.4,0.8,0.3,,0.5,Moderate,0.8
+"Sacrocolpopexy, open",Sacrocolpopexy,open,1.1,2.1,4.3,Moderate,<0.1,Very low,0.5,1.0,2.0,<0.1,,1.5,Low,2.3
+"Vaginal pelvic organ prolapse surgery, without mesh, with hysterectomy",Vaginal pelvic organ prolapse surgery,"without mesh, with hysterectomy",0.1,0.3,0.6,Very low,0.4,Very low,<0.1,0.1,0.3,0.6,,0.9,Low,1.4
+"Vaginal pelvic organ prolapse surgery, without mesh, without hysterectomy",Vaginal pelvic organ prolapse surgery,"without mesh, without hysterectomy",<0.1,0.1,0.1,Low,0.8,Very low,<0.1,<0.1,<0.1,1.2,,0.6,Moderate,0.9
+Transvaginal mesh,Transvaginal mesh,Any,0.2,0.3,0.7,Very low,0.6,Low,0.1,0.1,0.3,0.9,,0.8,Moderate,1.2
+Vaginal sling surgery for urinary incontinence,Vaginal sling surgery for urinary incontinence,Any,<0.1,0.1,0.1,High,0.1,Moderate,<0.1,<0.1,<0.1,0.2,,0.1,Moderate,0.2
+"Urethral bulking, vaginal",Urethral bulking,vaginal,<0.1,<0.1,<0.1,Very low,NR,,<0.1,<0.1,<0.1,NR,,<0.1,Very low,<0.1
+"Uterine artery embolization, minimally-invasive",Uterine artery embolization,minimally-invasive,0.2,0.4,0.8,Very low,<0.1,Very low,0.1,0.2,0.4,<0.1,,<0.1,Very low,<0.1
+First-trimester surgical abortion,First-trimester surgical abortion,Any,<0.1,<0.1,<0.1,Low,0.5,Low,<0.1,<0.1,<0.1,0.8,,<0.1,Low,<0.1
+Second-trimester surgical abortion,Second-trimester surgical abortion,Any,0.2,0.3,0.6,Low,0.3,Low,0.1,0.1,0.3,0.5,,0.2,Low,0.3
+"Supracervical hysterectomy, laparoscopic",Supracervical hysterectomy,laparoscopic,0.1,0.2,0.4,Moderate,0.5,Very low,<0.1,0.1,0.2,0.8,,1.1,Low,1.7
+"Supracervical hysterectomy, open",Supracervical hysterectomy,open,0.6,1.3,2.5,Moderate,2.1,Very low,0.3,0.6,1.2,3.2,,4.8,Moderate,7.2
+"Total hysterectomy, minimally-invasive",Total hysterectomy,minimally-invasive,0.1,0.2,0.5,Moderate,0.5,Moderate,<0.1,0.1,0.2,0.8,,1.3,Moderate,2.0
+"Total hysterectomy, open",Total hysterectomy,open,0.6,1.3,2.5,Moderate,2.1,Moderate,0.3,0.6,1.2,3.2,,1.5,Moderate,2.3
+"Total hysterectomy, vaginal",Total hysterectomy,vaginal,0.1,0.3,0.6,Moderate,0.4,Low,<0.1,0.1,0.3,0.6,,1.8,Low,2.7

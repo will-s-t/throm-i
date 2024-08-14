@@ -1,0 +1,29 @@
+Procedure and method,Procedure,Method,LOW VTE risk without thromboprophylaxis,MEDIUM VTE risk without thromboprophylaxis,HIGH VTE risk without thromboprophylaxis,Evidence quality VTE,Bleeding requiring reintervention without thromboprophylaxis,Evidence quality bleeding requiring reoperation,LOW VTE risk with thromboprophylaxis,MEDIUM VTE risk with thromboprophylaxis,HIGH VTE risk with thromboprophylaxis,Bleeding requiring reintervention with thromboprophylaxis,,Bleeding leading to transfusion without thromboprophylaxis,Evidence quality bleeding leading to transfusion,Bleeding leading to transfusion with thromboprophylaxis
+"Appendectomy, laparoscopic",Appendectomy,laparoscopic,0.1,0.3,0.5,Moderate,0.1,Low,<0.1,0.1,0.2,0.2,,0.1,Moderate,0.2
+"Appendectomy, open",Appendectomy,open,0.4,0.7,1.5,Low,0.1,Low,0.2,0.3,0.7,0.2,,<0.1,Moderate,<0.1
+"Cholecystectomy, open",Cholecystectomy,open,0.9,1.8,3.7,Moderate,0.4,Very low,0.4,0.8,1.7,0.6,,0.7,Very low,1.1
+"Cholecystectomy, laparoscopic",Cholecystectomy,laparoscopic,<0.1,0.1,0.1,Moderate,0.3,Low,<0.1,<0.1,<0.1,0.5,,0.1,Low,0.2
+"Cholecystectomy, laparoscopic, elective",Cholecystectomy,"laparoscopic, elective",<0.1,0.1,0.1,High,0.1,Moderate,<0.1,<0.1,<0.1,0.2,,<0.1,Moderate,<0.1
+"Cholecystectomy, laparoscopic, emergency",Cholecystectomy,"laparoscopic, emergency",0.3,0.5,1.1,Moderate,0.4,Very low,0.1,0.2,0.5,0.6,,NR,,NR
+"Groin hernia repair, laparoscopic",Groin hernia repair,laparoscopic,0.4,0.8,1.5,Low,0.2,Low,0.2,0.4,0.7,0.3,,<0.1,Low,<0.1
+"Groin hernia repair, laparoscopic, elective",Groin hernia repair,"laparoscopic, elective",<0.1,<0.1,<0.1,Low,0.1,Low,<0.1,<0.1,<0.1,0.2,,<0.1,Low,<0.1
+"Groin hernia repair, open",Groin hernia repair,open,0.1,0.3,0.5,Low,0.1,Moderate,<0.1,0.1,0.2,0.2,,<0.1,Moderate,<0.1
+"Groin hernia repair, open, elective",Groin hernia repair,"open, elective",<0.1,0.1,0.2,Moderate,0.3,Low,<0.1,<0.1,0.1,0.5,,NR,,NR
+"Groin hernia repair, open, emergency",Groin hernia repair,"open, emergency",0.8,1.6,3.2,Moderate,<0.1,Very low,0.4,0.7,1.5,<0.1,,NR,,NR
+"Ventral hernia repair, laparoscopic",Ventral hernia repair,laparoscopic,0.3,0.6,1.2,Low,0.1,Very low,0.1,0.3,0.6,0.2,,0.1,Moderate,0.2
+"Ventral hernia repair, laparoscopic, elective",Ventral hernia repair,"laparoscopic, elective",0.2,0.3,0.7,Low,0.2,Very low,0.1,0.1,0.3,0.3,,0.1,Moderate,0.2
+"Ventral hernia repair, laparoscopic, emergency",Ventral hernia repair,"laparoscopic, emergency",1.0,1.9,3.8,Low,NR,,0.5,0.9,1.7,NR,,NR,,NR
+"Ventral hernia repair, open",Ventral hernia repair,open,1.0,1.9,3.8,Low,1.0,Low,0.5,0.9,1.7,1.5,,0.1,Moderate,0.2
+"Ventral hernia repair, open, elective",Ventral hernia repair,"open, elective",0.7,1.4,2.8,Low,0.6,Low,0.3,0.6,1.3,0.9,,0.1,Moderate,0.2
+"Ventral hernia repair, open, emergency",Ventral hernia repair,"open, emergency",1.2,2.5,5.0,Moderate,NR,,0.6,1.2,2.3,NR,,NR,,NR
+"Small bowel resection, laparoscopic",Small bowel resection,laparoscopic,1.1,2.3,4.6,Moderate,NR,,0.5,1.1,2.1,NR,,NR,,NR
+"Small bowel resection, laparoscopic, benign",Small bowel resection,"laparoscopic, benign",0.8,1.5,3.0,Low,NR,,0.4,0.7,1.4,NR,,NR,,NR
+"Small bowel resection, laparoscopic, malign",Small bowel resection,"laparoscopic, malign",1.4,2.9,5.8,Low,NR,,0.6,1.3,2.7,NR,,NR,,NR
+"Small bowel resection, laparoscopic, IBD",Small bowel resection,"laparoscopic, IBD",1.0,1.9,3.9,Low,NR,,0.5,0.9,1.8,NR,,NR,,NR
+"Small bowel resection, open",Small bowel resection,open,2.7,5.3,10.6,Moderate,NR,,1.2,2.4,4.9,NR,,NR,,NR
+"Small bowel resection, open, benign",Small bowel resection,"open, benign",0.5,1.1,2.2,Low,NR,,0.2,0.5,1.0,NR,,NR,,NR
+"Small bowel resection, open, malign",Small bowel resection,"open, malign",2.3,4.6,9.2,Moderate,NR,,1.1,2.1,4.2,NR,,NR,,NR
+"Small bowel resection, open, IBD",Small bowel resection,"open, IBD",1.7,3.4,6.8,Moderate,NR,,0.8,1.6,3.1,NR,,NR,,NR
+"Small bowel resection, open, emergency",Small bowel resection,"open, emergency",2.9,5.8,11.5,Moderate,NR,,1.3,2.7,5.3,NR,,NR,,NR
+"Splenectomy, laparoscopic, elective",Splenectomy,"laparoscopic, elective",2.4,4.8,9.5,Moderate,1.3,Low,1.1,2.2,4.4,2.0,,0.9,Moderate,1.4
+"Splenectomy, open, elective",Splenectomy,"open, elective",1.4,2.8,5.7,Low,4.0,Very low,0.6,1.3,2.6,6.0,,1.2,Moderate,1.8
